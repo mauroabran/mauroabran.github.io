@@ -1,0 +1,62 @@
+body {
+    background-color: #f0f8ff; /* Fondo azul claro */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    border: none; /* Borde sin espesor */
+    box-sizing: border-box; /* Sin espacio interior a la caja */
+    margin: 25px 0 120px 1px; /* Margen superior 25px, inferior 120px, izquierdo 1px, derecho 0 */
+}
+
+form {
+    border: 3px ridge navy; /* Borde de 3 píxeles, azul marino y contorno ridge */
+    padding: 4px; /* Espacio interior de la caja */
+    margin: 1px auto; /* Márgenes superior e inferior de 1px, centrado automático */
+    width: 70%; /* Ancho del formulario en 70% */
+    color: navy; /* Texto en color azul marino */
+    font-weight: bold; /* Texto en negrita */
+}
+
+label {
+    display: block;
+    box-sizing: border-box; /* Ancho del borde nulo */
+    padding: 4px; /* Espaciado interno de la caja */
+    margin: 20px 1px 50px 1px; /* Márgenes superior 20px, inferior 50px, laterales 1px */
+    font-size: 120%; /* Tamaño de letra 20% mayor */
+    border-width: 0; /* Bordes sin ancho */
+}
+
+input {
+    width: calc(100% - 4px); /* Ancho completo menos el padding */
+    padding: 2px; /* Espaciado interno de 2 píxeles */
+    margin: 1px; /* Márgenes de 1px */
+    float: right; /* Flotante a la derecha */
+    font-size: 120%; /* Tamaño de letra 20% mayor */
+    border-width: 0; /* Ancho del borde nulo */
+}
+
+/* Contenedor para los botones */
+.button-container {
+    text-align: right; /* Alinear a la derecha */
+}
+
+button#reset, button#submit {
+    text-decoration: none; /* Anular decoración */
+    border: 3px ridge navy; /* Bordes de 3 píxeles, azul marino y contorno ridge */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 20px 10px 150px 10px; /* Márgenes: superior 20px, derecho 50px, inferior 150px, izquierdo 50px */
+    width: auto; /* Ancho automático */
+    text-align: center; /* Texto centrado */
+    background-color: lightgray; /* Fondo gris claro */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    display: inline-block; /* Mostrar como bloque en línea */
+    color: navy; /* Color azul marino */
+}
+
+button#reset:hover, button#submit:hover {
+    color: blue; /* Color del texto en azul al pasar el ratón */
+    border-color: blue; /* Color del borde en azul al pasar el ratón */
+    font-weight: bold; /* Texto en negrita */
+}

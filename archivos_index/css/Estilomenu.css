@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none; /* Quitar los puntos */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none; /* Anular toda decoración */
+    border: 3px ridge navy; /* Bordes de 3 píxeles, azul marino y contorno ridge */
+    padding: 4px; /* Espaciado interno de 4 píxeles */
+    margin: 1px auto; /* Márgenes superior e inferior de 1 píxel, izquierdo y derecho para centrar */
+    width: 70%; /* Ancho de las cajas en 70% */
+    text-align: center; /* Texto alineado al centro */
+    background-color: lightgray; /* Fondo gris claro */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Pasar a mayúsculas */
+    display: block; /* Mostrar como bloque */
+}
+
+a:hover {
+    color: blue; /* Ajustar el color de las letras en azul */
+    border-color: blue; /* Ajustar el color de los bordes en azul */
+    width: 75%; /* Ancho de las cajas al 75% */
+    font-size: 110%; /* Tamaño de letra 10% mayor */
+    padding: 2px; /* Espaciado interno de 2 píxeles */
+}

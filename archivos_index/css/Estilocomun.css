@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    color: navy; /* Color del texto azul marino */
+    background-image: url('../imagenes/fondo.jpg'); /* Imagen de fondo */
+    background-size: cover; /* La imagen cubre toda la página */
+    margin: 0;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.container {
+    display: flex;
+    height: 100%; /* Asegura que la altura sea completa */
+}
+
+.menu {
+    width: 300px; /* Ajusta el ancho del menú */
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    height: 100%; /* Asegura que la altura sea completa */
+}
+
+.principal {
+    flex-grow: 1;
+    padding: 0;
+    height: 100%; /* Asegura que la altura sea completa */
+}
+
+iframe {
+    width: 100%;
+    height: 100%; /* Asegura que el iframe ocupe toda la altura */
+    border: none;
+}
+
+h1 {
+    text-align: center; /* Título principal centrado */
+    text-transform: uppercase; /* En mayúsculas */
+}
+
+p::first-letter {
+    text-transform: uppercase; /* Primera letra mayúscula */
+    font-family: 'Times New Roman', serif;
+    font-style: italic; /* Cursiva */
+    font-size: 200%; /* Doble del tamaño por defecto */
+    color: fuchsia; /* Color fucsia */
+    font-weight: bold; /* Negrita */
+}
+
+p {
+    font-size: 150%; /* Tamaño de letra 50% mayor */
+    letter-spacing: 0.05em; /* Espaciado de 5% */
+    font-weight: normal;
+    line-height: 1.5; /* Espaciado entre líneas */
+    word-spacing: 0.2em; /* Ancho de letra 20% mayor */
+}
